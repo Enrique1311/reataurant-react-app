@@ -1,0 +1,11 @@
+button {
+	padding: 0.2rem 0.5rem;
+	background: transparent;
+	color: var(--color-vainilla);
+	margin: 0.2rem;
+	border: solid 1px var(--color-black);
+}
+
+button:hover {
+	border: solid 1px var(--color-vainilla);
+}
