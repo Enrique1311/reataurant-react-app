@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Amita&family=Roboto&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant&family=Lobster&family=Roboto&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -19,11 +17,11 @@ a {
 }
 
 :root {
-	font-size: 18px;
+	font-size: 20px;
 
 	font-family: "Roboto", "Helvetica Neue";
 
-	--font-special: "Amita", "Sans-serif";
+	--font-special: "Cormorant";
 
 	--color-golden: rgb(207, 207, 122);
 	--color-black: black;
@@ -47,7 +45,7 @@ a {
 }
 
 .section__padding {
-	padding: 4rem 6rem;
+	padding: 5rem 8rem;
 }
 
 .app__bg {
@@ -58,9 +56,19 @@ a {
 	background-attachment: fixed;
 }
 
+@media screen and (max-width: 1200px) {
+	:root {
+		font-size: 19px;
+	}
+
+	.section__padding {
+		padding: 4rem 7rem;
+	}
+}
+
 @media screen and (max-width: 1000px) {
 	:root {
-		font-size: 16px;
+		font-size: 18px;
 	}
 
 	.section__padding {
@@ -70,16 +78,16 @@ a {
 
 @media screen and (max-width: 800px) {
 	:root {
-		font-size: 15px;
+		font-size: 16px;
 	}
 
 	.section__padding {
-		padding: 4rem 3rem;
+		padding: 3rem 4rem;
 	}
 }
 
 @media screen and (max-width: 550px) {
 	.section__padding {
-		padding: 4rem 2rem;
+		padding: 3rem;
 	}
 }

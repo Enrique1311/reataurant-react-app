@@ -17,12 +17,13 @@ const Navbar = () => {
 						href="#home"
 						className="navbar-logo"
 					>
-						<h1>Terra</h1>
+						<h1>Gourmet</h1>
+						<p>restó</p>
 					</a>
 					<div className="navbar-links">
 						<a href="#home">Home</a>
-						<a href="#pages">About Us</a>
-						<a href="#contactUs">Menu</a>
+						<a href="#aboutUs">About Us</a>
+						<a href="">Menu</a>
 						<a href="#blog">Awards</a>
 						<a href="#landing">Contact</a>
 					</div>
@@ -55,25 +56,25 @@ const Navbar = () => {
 							Home
 						</a>
 						<a
-							href="#pages"
+							href="#aboutUs"
 							className="right-side"
 						>
 							About Us
 						</a>
 						<a
-							href="#contactUs"
+							href="#menu"
 							className="left-side"
 						>
-							Our Menu
+							Menu
 						</a>
 						<a
-							href="#blog"
+							href="#awards"
 							className="right-side"
 						>
 							Awards
 						</a>
 						<a
-							href="#landing"
+							href="#contact"
 							className="left-side"
 						>
 							Contact
