@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -17,9 +21,13 @@ a {
 :root {
 	font-size: 18px;
 
+	font-family: "Roboto", "Helvetica Neue";
+
+	--font-special: "Amita", "Sans-serif";
+
 	--color-golden: rgb(207, 207, 122);
 	--color-black: black;
-	--color-gray: rgb(70, 69, 69);
+	--color-grey: rgb(70, 69, 69);
 	--color-vainilla: rgb(227, 227, 215);
 	--color-white: rgb(255, 255, 255);
 }

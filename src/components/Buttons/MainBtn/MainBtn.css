@@ -1,0 +1,8 @@
+.main-button {
+	background: var(--color-vainilla);
+	font-family: var(--font-special);
+	color: var(--color-black);
+	padding: 0.5rem 1rem;
+	margin: 0;
+	border: none;
+}

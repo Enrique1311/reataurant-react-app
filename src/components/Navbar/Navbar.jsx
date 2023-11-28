@@ -1,55 +1,89 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { IoRestaurantSharp } from "react-icons/io5";
-import { HiMenuAlt3 } from "react-icons/hi";
 import Login from "../Login/Login";
-import { IoIosCloseCircle } from "react-icons/io";
+import { RiMenuFill } from "react-icons/ri";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
+	const [toggleMenu, setToggleMenu] = useState(false);
+
 	return (
 		<>
 			<nav className="navbar">
 				<div className="navbar-content">
 					{" "}
-					<div className="navbar-logo">
+					<a
+						href="#home"
+						className="navbar-logo"
+					>
 						<h1>Terra</h1>
-						<IoRestaurantSharp size={30} />
-					</div>
+					</a>
 					<div className="navbar-links">
-						<a href="">Home</a>
-						<a href="">Pages</a>
-						<a href="">Contact Us</a>
-						<a href="">Blog</a>
-						<a href="">Landing</a>
+						<a href="#home">Home</a>
+						<a href="#pages">About Us</a>
+						<a href="#contactUs">Menu</a>
+						<a href="#blog">Awards</a>
+						<a href="#landing">Contact</a>
 					</div>
 					<div className="navbar-login">
 						<Login />
 					</div>
 				</div>
-
-				<div className="navbar-hamburguer-logo">
-					<HiMenuAlt3 size={35} />
-				</div>
-			</nav>
-			<nav className="mobile-navbar section__padding">
-				<div className="close-icon">
-					<IoIosCloseCircle
-						color="white"
-						size={40}
+				<div>
+					<RiMenuFill
+						onClick={() => {
+							setToggleMenu(true);
+						}}
+						className="navbar-hamburguer-logo"
 					/>
 				</div>
-				<div className="mobile-navbar-links">
-					<a href="">Home</a>
-					<a href="">Pages</a>
-					<a href="">Contact Us</a>
-					<a href="">Blog</a>
-					<a href="">Landing</a>
-				</div>
-				<div className="navbar-mobile-login">
-					{" "}
-					<Login />
-				</div>
-			</nav>
+			</nav>{" "}
+			{toggleMenu && (
+				<nav className="mobile-navbar section__padding">
+					<AiOutlineClose
+						className="close-icon"
+						onClick={() => {
+							setToggleMenu(false);
+						}}
+					/>
+					<div className="mobile-navbar-links">
+						<a
+							href="#home"
+							className="left-side"
+						>
+							Home
+						</a>
+						<a
+							href="#pages"
+							className="right-side"
+						>
+							About Us
+						</a>
+						<a
+							href="#contactUs"
+							className="left-side"
+						>
+							Our Menu
+						</a>
+						<a
+							href="#blog"
+							className="right-side"
+						>
+							Awards
+						</a>
+						<a
+							href="#landing"
+							className="left-side"
+						>
+							Contact
+						</a>
+					</div>
+					<div className="navbar-mobile-login right-side">
+						<Login />
+					</div>
+				</nav>
+			)}
 		</>
 	);
 };

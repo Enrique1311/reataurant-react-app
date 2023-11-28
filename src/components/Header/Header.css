@@ -1,0 +1,17 @@
+.header {
+	margin-top: 4rem;
+	background: var(--color-black);
+}
+
+.header-title {
+	color: var(--color-golden);
+	font-family: var(--font-special);
+	letter-spacing: 0.05rem;
+	line-height: 6rem;
+	font-size: 4rem;
+}
+
+.header-text {
+	color: var(--color-vainilla);
+	margin-bottom: 2rem;
+}
