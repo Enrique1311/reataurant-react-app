@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutUs.css";
 import knife from "../../assets/knife.png";
-import MainBtn from "../Buttons/MainBtn/MainBtn";
+import MainBtn from "../MainBtn/MainBtn";
 import spoon from "../../assets/spoon.png";
 import gBack from "../../assets/g.png";
 

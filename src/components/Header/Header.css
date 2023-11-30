@@ -40,14 +40,10 @@
 @media screen and (max-width: 800px) {
 	.header {
 		flex-direction: column;
-		gap: 4rem;
+		gap: 2rem;
 	}
 
 	.header-img {
 		justify-content: center;
-	}
-
-	.header-img img {
-		width: 70%;
 	}
 }

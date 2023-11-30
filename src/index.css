@@ -45,7 +45,7 @@ a {
 }
 
 .section__padding {
-	padding: 5rem 8rem;
+	padding: 5rem 10rem;
 }
 
 .app__bg {
@@ -56,13 +56,19 @@ a {
 	background-attachment: fixed;
 }
 
+@media screen and (max-width: 1600px) {
+	.section__padding {
+		padding: 5rem 7rem;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	:root {
 		font-size: 19px;
 	}
 
 	.section__padding {
-		padding: 4rem 7rem;
+		padding: 4rem 6rem;
 	}
 }
 
@@ -72,7 +78,7 @@ a {
 	}
 
 	.section__padding {
-		padding: 4rem;
+		padding: 4rem 5rem;
 	}
 }
 
@@ -82,12 +88,12 @@ a {
 	}
 
 	.section__padding {
-		padding: 3rem 4rem;
+		padding: 4rem;
 	}
 }
 
 @media screen and (max-width: 550px) {
 	.section__padding {
-		padding: 3rem;
+		padding: 4rem 2rem;
 	}
 }

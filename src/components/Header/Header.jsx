@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import SubHeading from "../SubHeading/SubHeading";
-import MainBtn from "../Buttons/MainBtn/MainBtn";
+import MainBtn from "../MainBtn/MainBtn";
 import welcome from "../../assets/welcome.png";
 
 const Header = () => {

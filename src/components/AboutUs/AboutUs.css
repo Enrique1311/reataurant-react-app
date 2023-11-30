@@ -16,14 +16,9 @@
 }
 
 .about-us-back img {
-	width: 300px;
-	height: 250px;
-	z-index: 0;
-}
-
-.about-us-back img {
 	width: 15rem;
 	height: 16rem;
+	z-index: 0;
 }
 
 .about-us h2 {
@@ -45,6 +40,16 @@
 	transform: rotate(180deg);
 }
 
+.about-us h2 {
+	font-family: var(--font-special);
+	font-size: 2rem;
+}
+
+.about-us-image {
+	width: 3.5rem;
+	z-index: 20;
+}
+
 .about-us-right {
 	color: var(--color-vainilla);
 	display: flex;
@@ -53,16 +58,6 @@
 	text-align: left;
 	gap: 2rem;
 	font-size: 0.8rem;
-	z-index: 20;
-}
-
-.about-us h2 {
-	font-family: var(--font-special);
-	font-size: 2rem;
-}
-
-.about-us-image {
-	width: 4rem;
 	z-index: 20;
 }
 

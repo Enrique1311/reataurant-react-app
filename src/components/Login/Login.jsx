@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-import TransparentBtn from "../Buttons/TransparentBtn/TransparentBtn";
+import TransparentBtn from "../TransparentBtn/TransparentBtn";
 
 const Login = () => {
 	return (

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { IoRestaurantSharp } from "react-icons/io5";
 import Login from "../Login/Login";
 import { RiMenuFill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
@@ -48,7 +47,12 @@ const Navbar = () => {
 							setToggleMenu(false);
 						}}
 					/>
-					<div className="mobile-navbar-links">
+					<div
+						className="mobile-navbar-links"
+						onClick={() => {
+							setToggleMenu(false);
+						}}
+					>
 						<a
 							href="#home"
 							className="left-side"
@@ -80,7 +84,12 @@ const Navbar = () => {
 							Contact
 						</a>
 					</div>
-					<div className="navbar-mobile-login right-side">
+					<div
+						className="navbar-mobile-login right-side"
+						onClick={() => {
+							setToggleMenu(false);
+						}}
+					>
 						<Login />
 					</div>
 				</nav>
