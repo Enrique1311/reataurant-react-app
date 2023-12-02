@@ -1,0 +1,53 @@
+.chef {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 3rem;
+	width: 100%;
+}
+
+.chef-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.chef-image img {
+	width: 100%;
+}
+
+.chef-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 1.5rem;
+}
+
+.chef-info-title h2 {
+	font-size: 2rem;
+	color: var(--color-golden);
+	font-family: var(--font-special);
+	margin-top: 1rem;
+}
+
+.chef-info-text {
+	color: var(--color-vainilla);
+	font-size: 0.9rem;
+}
+
+.chef-info-name {
+	color: var(--color-golden);
+	font-family: var(--font-special);
+	font-size: 1.6rem;
+	margin-bottom: 0.4rem;
+}
+
+.chef-info-proffetion {
+	color: var(--color-golden);
+	font-size: 0.8rem;
+}
+
+.chef-info-sign img {
+	width: 8rem;
+}

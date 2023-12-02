@@ -6,10 +6,7 @@ const SubHeading = ({ title }) => {
 	return (
 		<div className="sub-heading">
 			<p>{title}</p>
-			<img
-				src={spoon}
-				className="sub-heading-img"
-			/>
+			<img src={spoon} />
 		</div>
 	);
 };
