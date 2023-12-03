@@ -1,20 +1,22 @@
 .intro {
-	position: relative;
 	height: 100vh;
+	position: relative;
 }
 
 .intro video {
-	object-fit: cover;
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 }
 
 .intro-logo-container {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
-	inset: 0;
 	background: var(--color-transparent);
 	color: var(--color-white);
 }
@@ -55,7 +57,7 @@
 		font-size: 1rem;
 	}
 }
-
+/* 
 @media screen and (max-width: 550px) {
 	.intro {
 		position: relative;
@@ -68,4 +70,4 @@
 		width: fit-content;
 		height: 600px;
 	}
-}
+} */
