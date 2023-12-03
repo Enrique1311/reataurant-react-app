@@ -3,7 +3,7 @@ import "./AboutUs.css";
 import knife from "../../assets/knife.png";
 import MainBtn from "../MainBtn/MainBtn";
 import spoon from "../../assets/spoon.png";
-import gBack from "../../assets/g.png";
+import gBack from "../../assets/G.png";
 
 const AboutUs = () => {
 	return (
