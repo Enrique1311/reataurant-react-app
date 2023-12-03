@@ -24,10 +24,11 @@ a {
 	--font-special: "Cormorant";
 
 	--color-golden: rgb(207, 207, 122);
-	--color-black: black;
-	--color-grey: rgb(70, 69, 69);
+	--color-black: rgb(0, 0, 0);
+	--color-grey: #464545;
 	--color-vainilla: rgb(227, 227, 215);
 	--color-white: rgb(255, 255, 255);
+	--color-transparent: rgb(0, 0, 0, 0.8);
 }
 
 .slide-bottom {
@@ -94,6 +95,12 @@ a {
 
 @media screen and (max-width: 550px) {
 	.section__padding {
-		padding: 4rem 2rem;
+		padding: 4rem 3rem;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.section__padding {
+		padding: 3.5rem 2rem;
 	}
 }

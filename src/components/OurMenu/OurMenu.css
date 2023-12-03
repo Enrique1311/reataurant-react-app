@@ -1,4 +1,5 @@
 .our-menu {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -23,7 +24,7 @@
 
 .our-menu-content {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: flex-start;
 	width: 100%;
 }
@@ -44,16 +45,14 @@
 	margin-top: 0.5rem;
 }
 
-@media screen and (max-width: 1600px) {
-	.our-menu-image {
-		width: 12rem;
-	}
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 	.our-menu-content {
 		flex-direction: column;
 		align-items: center;
 		gap: 1rem;
+	}
+
+	.our-menu-image {
+		width: 12rem;
 	}
 }

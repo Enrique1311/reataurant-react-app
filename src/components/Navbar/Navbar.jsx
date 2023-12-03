@@ -3,6 +3,7 @@ import "./Navbar.css";
 import Login from "../Login/Login";
 import { RiMenuFill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
+import Logo from "../Logo/Logo";
 
 const Navbar = () => {
 	const [toggleMenu, setToggleMenu] = useState(false);
@@ -11,18 +12,15 @@ const Navbar = () => {
 		<>
 			<nav className="navbar">
 				<div className="navbar-content">
-					{" "}
-					<a
-						href="#home"
-						className="navbar-logo"
-					>
-						<h1>Gourmet</h1>
-						<p>restó</p>
+					<a href="#home">
+						{" "}
+						<Logo />
 					</a>
+
 					<div className="navbar-links">
 						<a href="#home">Home</a>
 						<a href="#aboutUs">About Us</a>
-						<a href="">Menu</a>
+						<a href="#menu">Menu</a>
 						<a href="#blog">Awards</a>
 						<a href="#landing">Contact</a>
 					</div>

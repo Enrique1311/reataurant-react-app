@@ -21,23 +21,6 @@
 	gap: 3rem;
 }
 
-.navbar-logo {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	margin-left: 1rem;
-}
-
-.navbar-logo h1 {
-	font-size: 1.4rem;
-	font-family: var(--font-special);
-}
-
-.navbar-logo p {
-	font-size: 0.6rem;
-}
-
 .navbar-links {
 	display: flex;
 	justify-content: space-between;

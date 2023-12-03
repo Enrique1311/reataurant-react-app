@@ -51,3 +51,13 @@
 .chef-info-sign img {
 	width: 8rem;
 }
+
+@media screen and (max-width: 800px) {
+	.chef {
+		flex-direction: column;
+	}
+
+	.chef-image img {
+		width: 100%;
+	}
+}

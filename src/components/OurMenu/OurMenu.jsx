@@ -19,16 +19,15 @@ const OurMenu = () => {
 			<div className="our-menu-content">
 				<div className="our-menu-wines">
 					<h3>Wine & Beer</h3>
-					<div className="our-menu-items">
-						{wines.map((wine, index) => (
-							<MenuItem
-								key={wine.title + index}
-								title={wine.title}
-								price={wine.price}
-								tags={wine.tags}
-							/>
-						))}
-					</div>
+
+					{wines.map((wine, index) => (
+						<MenuItem
+							key={wine.title + index}
+							title={wine.title}
+							price={wine.price}
+							tags={wine.tags}
+						/>
+					))}
 				</div>
 				<div>
 					<img
@@ -39,16 +38,15 @@ const OurMenu = () => {
 				</div>
 				<div className="our-menu-cocktails">
 					<h3 className="our-menu-heading">Cocktails</h3>
-					<div className="our-menu-items">
-						{cocktails.map((cocktail, index) => (
-							<MenuItem
-								key={cocktail.title + index}
-								title={cocktail.title}
-								price={cocktail.price}
-								tags={cocktail.tags}
-							/>
-						))}
-					</div>
+
+					{cocktails.map((cocktail, index) => (
+						<MenuItem
+							key={cocktail.title + index}
+							title={cocktail.title}
+							price={cocktail.price}
+							tags={cocktail.tags}
+						/>
+					))}
 				</div>
 			</div>
 			<MainBtn>View More</MainBtn>

@@ -43,7 +43,7 @@
 		gap: 2rem;
 	}
 
-	.header-img {
-		justify-content: center;
+	.header-img img {
+		width: 100%;
 	}
 }
