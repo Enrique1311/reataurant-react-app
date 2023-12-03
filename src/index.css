@@ -28,7 +28,7 @@ a {
 	--color-grey: #464545;
 	--color-vainilla: rgb(227, 227, 215);
 	--color-white: rgb(255, 255, 255);
-	--color-transparent: rgb(0, 0, 0, 0.8);
+	--color-transparent: rgb(0, 0, 0, 0.5);
 }
 
 .slide-bottom {

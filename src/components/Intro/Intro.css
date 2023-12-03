@@ -1,20 +1,20 @@
 .intro {
 	position: relative;
-	width: 100%;
+	height: 100vh;
 }
 
 .intro video {
+	object-fit: cover;
 	width: 100%;
+	height: 100%;
 }
 
 .intro-logo-container {
-	top: 0;
-	width: 100%;
-	height: 100%;
-	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: absolute;
+	inset: 0;
 	background: var(--color-transparent);
 	color: var(--color-white);
 }
