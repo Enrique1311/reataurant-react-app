@@ -3,7 +3,7 @@ import "./OurMenu.css";
 import SubHeading from "../SubHeading/SubHeading";
 import MainBtn from "../MainBtn/MainBtn";
 import MenuItem from "../MenuItem/MenuItem";
-import { wines, cocktails } from "../../data/menuData";
+import { wines, cocktails } from "../../data/appData";
 import menuImage from "../../assets/cocktail.png";
 
 const OurMenu = () => {

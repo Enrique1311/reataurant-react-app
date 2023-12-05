@@ -1,0 +1,41 @@
+.awards-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	width: 14rem;
+}
+
+.awards-card img {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.card-texts {
+	text-align: left;
+	width: 100%;
+}
+
+.card-title {
+	font-family: var(--font-special);
+	font-size: 1.1rem;
+	color: var(--color-golden);
+	margin-bottom: 0.4rem;
+}
+
+.card-subtitle {
+	font-size: 0.7rem;
+	color: var(--color-vainilla);
+}
+
+@media screen and (max-width: 1200px) {
+	.awards-card {
+		width: 16rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.awards-card {
+		width: 100%;
+	}
+}

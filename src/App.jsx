@@ -5,6 +5,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import OurMenu from "./components/OurMenu/OurMenu";
 import Chef from "./components/Chef/Chef";
 import Intro from "./components/Intro/Intro";
+import Laurels from "./components/Laurels/Laurels";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<OurMenu />
 				<Chef />
 				<Intro />
+				<Laurels />
 			</div>
 		</>
 	);

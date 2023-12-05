@@ -21,8 +21,8 @@ const Navbar = () => {
 						<a href="#home">Home</a>
 						<a href="#aboutUs">About Us</a>
 						<a href="#menu">Menu</a>
-						<a href="#blog">Awards</a>
-						<a href="#landing">Contact</a>
+						<a href="#awards">Awards</a>
+						<a href="#contact">Contact</a>
 					</div>
 					<div className="navbar-login">
 						<Login />
