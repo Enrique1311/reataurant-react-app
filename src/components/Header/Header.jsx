@@ -13,10 +13,10 @@ const Header = () => {
 			<div className="header-info">
 				<SubHeading title="Chase the new flavour" />
 				<h1 className="header-title">The Key to Fine Dining</h1>
-				<p className="header-text">
+				<p className="section__text">
 					Sit tellus lobortis sed senectus vivamus molestie. Condimentum
 					volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
-					aliquam amet tellus{" "}
+					aliquam amet tellus.
 				</p>
 				<MainBtn>Explore Menu</MainBtn>
 			</div>

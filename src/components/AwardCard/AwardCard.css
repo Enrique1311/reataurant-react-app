@@ -18,13 +18,13 @@
 
 .card-title {
 	font-family: var(--font-special);
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	color: var(--color-golden);
 	margin-bottom: 0.4rem;
 }
 
 .card-subtitle {
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	color: var(--color-vainilla);
 }
 

@@ -17,23 +17,7 @@
 }
 
 .chef-info {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	gap: 1.5rem;
-}
-
-.chef-info-title h2 {
-	font-size: 2.5rem;
-	color: var(--color-golden);
-	font-family: var(--font-special);
-	margin-top: 1rem;
-}
-
-.chef-info-text {
-	color: var(--color-vainilla);
-	font-size: 0.9rem;
+	text-align: left;
 }
 
 .chef-info-name {

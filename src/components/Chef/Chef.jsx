@@ -19,9 +19,9 @@ const Chef = () => {
 			<div className="chef-info">
 				<div className="chef-info-title">
 					<SubHeading title="Chef´s World" />
-					<h2>What We Believe In</h2>
+					<h2 className="section__title">What We Believe In</h2>
 				</div>
-				<p className="chef-info-text">
+				<p className="section__text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
 					auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
 					Nulla scelerisque scelerisque congue ac consequat, aliquam molestie

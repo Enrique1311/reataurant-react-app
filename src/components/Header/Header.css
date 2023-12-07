@@ -12,13 +12,7 @@
 	letter-spacing: 0.05rem;
 	line-height: 4rem;
 	font-size: 3.5rem;
-	padding: 2rem 0;
-}
-
-.header-text {
-	color: var(--color-vainilla);
-	margin-bottom: 2rem;
-	font-size: 1rem;
+	padding-bottom: 2rem;
 }
 
 .header-img {

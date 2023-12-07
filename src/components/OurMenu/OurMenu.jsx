@@ -14,7 +14,7 @@ const OurMenu = () => {
 		>
 			<div className="our-menu-title">
 				<SubHeading title="Menu that fits you palatte" />
-				<h2>Today’s Special</h2>
+				<h2 className="section__title">Today’s Special</h2>
 			</div>
 			<div className="our-menu-content">
 				<div className="our-menu-wines">

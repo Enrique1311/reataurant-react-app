@@ -13,7 +13,7 @@ const Intro = () => {
 	};
 
 	return (
-		<div className="intro">
+		<div className="intro section__padding">
 			<video
 				ref={videoRef}
 				src={myVideo}

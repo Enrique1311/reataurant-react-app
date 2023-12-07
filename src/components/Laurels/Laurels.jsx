@@ -13,7 +13,7 @@ const Laurels = () => {
 		>
 			<div className="laurels-info">
 				<SubHeading title="Awards & recognition" />
-				<h3 className="info-title">Our Laurels</h3>
+				<h2 className="section__title">Our Laurels</h2>
 				<div className="info-content">
 					{awards.map((award) => (
 						<AwardCard

@@ -49,12 +49,17 @@ a {
 	padding: 5rem 10rem;
 }
 
-.app__bg {
-	background: url();
-	background-position: center;
-	background-size: cover;
-	background-repeat: repeat;
-	background-attachment: fixed;
+.section__title {
+	color: var(--color-golden);
+	font-family: var(--font-special);
+	font-size: 2.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.section__text {
+	color: var(--color-vainilla);
+	font-size: 1rem;
+	padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 1600px) {
