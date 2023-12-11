@@ -3,10 +3,7 @@ import "./Gallery.css";
 import { galleryImages } from "../../data/galleryImages";
 import SubHeading from "../SubHeading/SubHeading";
 import MainBtn from "../MainBtn/MainBtn";
-import {
-	IoIosArrowDropleftCircle,
-	IoIosArrowDroprightCircle,
-} from "react-icons/io";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
 
 const Gallery = () => {
@@ -16,8 +13,8 @@ const Gallery = () => {
 		const { current } = scrollRef;
 
 		direction === "left"
-			? (current.scrollLeft -= 300)
-			: (current.scrollLeft += 300);
+			? (current.scrollLeft -= 310)
+			: (current.scrollLeft += 310);
 	};
 
 	return (
@@ -52,11 +49,11 @@ const Gallery = () => {
 					))}
 				</div>
 				<div className="gallery-photos-arrows">
-					<IoIosArrowDropleftCircle
+					<IoIosArrowBack
 						onClick={() => scroll("left")}
 						className="arrow-icon"
 					/>
-					<IoIosArrowDroprightCircle
+					<IoIosArrowForward
 						onClick={() => scroll("right")}
 						className="arrow-icon"
 					/>

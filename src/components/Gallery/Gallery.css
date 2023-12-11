@@ -18,9 +18,9 @@
 	align-items: center;
 	width: max-content;
 	overflow-x: scroll;
-	gap: 1rem;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+	gap: 10px;
 }
 
 .gallery-photos-container::-webkit-scrollbar {
@@ -67,17 +67,29 @@
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
+	padding: 1rem;
 }
 
 .arrow-icon {
-	color: var(--color-white);
-	font-size: 2rem;
+	color: var(--color-black);
+	font-size: 1.5rem;
 	cursor: pointer;
-	opacity: 0.6;
 	transition: 0.5s ease;
+	background: var(--color-vainilla);
+	border-radius: 50%;
 }
 
 .arrow-icon:hover {
-	opacity: 1;
+	transform: scale(1.4);
+}
+
+@media screen and (max-width: 800px) {
+	.gallery {
+		flex-direction: column;
+	}
+
+	.gallery-photos {
+		max-width: 100%;
+	}
 }
