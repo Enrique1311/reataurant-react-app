@@ -1,0 +1,41 @@
+.find-us {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 3rem;
+}
+
+.find-us-texts {
+	text-align: left;
+	width: 40%;
+}
+
+.find-us-texts h3 {
+	font-family: var(--font-special);
+	color: var(--color-golden);
+	font-size: 1.3rem;
+	margin: 1rem 0;
+}
+
+.find-us-image {
+	width: 50%;
+}
+
+.find-us-image img {
+	width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.find-us {
+		flex-direction: column;
+	}
+
+	.find-us-texts {
+		text-align: center;
+		width: 100%;
+	}
+
+	.find-us-image {
+		width: 100%;
+	}
+}

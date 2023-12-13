@@ -31,7 +31,7 @@
 }
 
 .navbar-links a:hover {
-	color: var(--color-golden);
+	color: var(--color-white);
 }
 
 .navbar-hamburguer-logo {
@@ -41,7 +41,7 @@
 }
 
 .mobile-navbar {
-	display: flex;
+	display: none;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
@@ -88,7 +88,7 @@
 
 @keyframes mobile-menu-anim-left {
 	0% {
-		transform: translateX(-400%);
+		transform: translateX(-1000%);
 	}
 	100% {
 		transform: translateX(0);
@@ -97,7 +97,7 @@
 
 @keyframes mobile-menu-anim-right {
 	0% {
-		transform: translateX(400%);
+		transform: translateX(1000%);
 	}
 	100% {
 		transform: translateX(0);
@@ -111,6 +111,10 @@
 
 	.navbar-hamburguer-logo {
 		display: block;
+	}
+
+	.mobile-navbar {
+		display: flex;
 	}
 }
 

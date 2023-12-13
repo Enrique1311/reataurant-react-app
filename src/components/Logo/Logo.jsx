@@ -4,8 +4,7 @@ import "./Logo.css";
 const Logo = () => {
 	return (
 		<div className="logo">
-			<h1>Gourmet</h1>
-			<p>restó</p>
+			<h1>GOURMET</h1>
 		</div>
 	);
 };
