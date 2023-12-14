@@ -1,0 +1,18 @@
+.top-btn a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--color-golden);
+	font-family: var(--font-special);
+	font-size: 1.2rem;
+	background: transparent;
+	border: none;
+	position: fixed;
+	right: 0.5rem;
+	bottom: 1rem;
+	z-index: 50;
+	gap: 0.5rem;
+	border: solid 1px var(--color-golden);
+	padding: 0.6rem 0.2rem;
+}

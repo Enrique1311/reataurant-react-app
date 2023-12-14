@@ -9,6 +9,7 @@ import Laurels from "./components/Laurels/Laurels";
 import Gallery from "./components/Gallery/Gallery";
 import FindUs from "./components/FindUs/FindUs";
 import Footer from "./components/Footer/Footer";
+import TopBtn from "./components/TopBtn/TopBtn";
 
 function App() {
 	return (

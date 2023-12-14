@@ -17,6 +17,8 @@
 	justify-content: space-between;
 	align-items: flex-start;
 	width: 100%;
+	margin-bottom: 2rem;
+	gap: 1rem;
 }
 
 .our-menu-image {
@@ -40,9 +42,40 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 1rem;
+		margin-bottom: 1rem;
 	}
 
 	.our-menu-image {
 		width: 12rem;
+	}
+
+	.our-menu-wines,
+	.our-menu-cocktails {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.our-menu-content {
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.our-menu-image {
+		width: 12rem;
+	}
+
+	.our-menu-wines,
+	.our-menu-cocktails {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.our-menu-wines,
+	.our-menu-cocktails {
+		width: 100%;
 	}
 }
