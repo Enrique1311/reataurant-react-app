@@ -7,7 +7,7 @@
 
 <h3 align="left">The focus of this project is to elevate the frontend of the restaurant's website by employing React for dynamic components, Vite for efficient development, and CSS for styling. By combining these technologies, the project aims to achieve a sleek, responsive, and aesthetically pleasing digital representation of the restaurant.</h3>
 
-- 💻 This project is available at [https://enrique-spinelli-port.vercel.app](https://enrique-spinelli-port.vercel.app)
+- 💻 This project is available at [https://ejs-restaurant-react-app.vercel.app](https://ejs-restaurant-react-app.vercel.app)
 
 - 👨‍💻 All of my projects are available at [https://enrique-spinelli-port.vercel.app](https://enrique-spinelli-port.vercel.app)
 
